@@ -225,7 +225,7 @@ class DomainSecurityScanner:
             except Exception:
                 continue
 
-    def _crtsh_enumeration):
+    def _crtsh_enumeration(self):
         """استخراج النطاقات الفرعية من crt.sh (شهادات SSL)"""
         try:
             print("\n[*] البحث في crt.sh عن شهادات SSL...")

