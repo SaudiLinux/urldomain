@@ -1,0 +1,73 @@
+# Domain Security Scanner Requirements
+# المبرمج: SaudiLinux
+# البريد الإلكتروني: SaudiLinux1@gmail.com
+
+# المكتبات الأساسية للشبكة والطلبات HTTP
+requests>=2.31.0
+urllib3>=2.0.7
+certifi>=2024.2.2
+
+# تحليل HTML وXML والجافاسكريبت
+beautifulsoup4>=4.12.3
+lxml>=5.1.0
+html5lib>=1.1
+
+# تحليل عناوين URL ومعالجة البيانات
+python-dateutil>=2.8.2
+urlextract>=1.9.0
+
+# عمليات DNS والشبكة
+dnspython>=2.6.1
+netifaces>=0.11.0
+scapy>=2.5.0
+
+# استخراج بيانات WhoIS
+python-whois>=0.9.4
+
+# فحص المنافذ والشبكة المتقدمة
+python-nmap>=0.7.1
+psutil>=5.9.8
+
+# SSL/TLS Analysis
+pyOpenSSL>=24.0.0
+sslyze>=5.2.0
+
+# WAF Detection (wafw00f)
+wafw00f>=2.2.0
+
+# التعامل مع البيانات والملفات
+numpy>=1.26.4
+pandas>=2.2.1
+openpyxl>=3.1.2
+
+# التنفيذ المتزامن والخيوط
+concurrent.futures; python_version < "3.2"
+threadpoolctl>=3.4.0
+
+# التعامل مع JSON والبيانات المنظمة
+PyYAML>=6.0.1
+toml>=0.10.2
+jsonschema>=4.21.1
+
+# الواجهات البرمجية لخدمات البحث عن الثغرات
+shodan>=1.31.0
+censys>=2.2.8
+vt-py>=0.16.0
+
+# أدوات إضافية للتحليل الأمني
+requests-whois>=0.1.0
+tldextract>=5.1.2
+pycparser>=2.21
+
+# التعامل مع الألوان في الواجهة النصية
+colorama>=0.4.6
+termcolor>=2.4.0
+rich>=13.7.0
+
+# تسجيل الأحداث والتصحيح
+logging>=0.5.1.2
+traceback-with-variables>=2.0.4
+
+# التحقق من صحة المدخلات
+validators>=0.22.0
+email-validator>=2.1.0.post1
